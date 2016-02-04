@@ -161,7 +161,7 @@ BOARD_USES_QCOM_HARDWARE := true
 TARGET_RIL_VARIANT := caf
 
 # Recovery
-TARGET_RECOVERY_FSTAB := $(PLATFORM_PATH)/rootdir/etc/fstab.onyx
+TARGET_RECOVERY_FSTAB := $(PLATFORM_PATH)/rootdir/etc/fstab.qcom
 #TARGET_RECOVERY_INITRC := $(LOCAL_PATH)/init.recovery.qcom.rc
 RECOVERY_VARIANT := twrp
 
