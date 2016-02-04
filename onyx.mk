@@ -32,7 +32,7 @@ PRODUCT_PACKAGES += \
 # Ramdisk
 PRODUCT_PACKAGES += \
     libinit_onyx \
-    fstab.onyx \
+    fstab.qcom \
     init.qcom.ril.sh \
     init.onyx.rc \
     init.qcom-common.rc \
