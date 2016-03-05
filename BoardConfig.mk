@@ -166,7 +166,6 @@ TARGET_RECOVERY_FSTAB := $(PLATFORM_PATH)/rootdir/etc/fstab.qcom
 RECOVERY_VARIANT := twrp
 
 #TWRP
-TW_THEME := portrait_hdpi
 RECOVERY_GRAPHICS_USE_LINELENGTH := true
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 TW_BRIGHTNESS_PATH := "/sys/devices/mdp.0/qcom\x2mdss_fb_primary.171/leds/lcd-backlight/brightness"
@@ -207,6 +206,9 @@ endif
 MR_INPUT_TYPE := type_b
 MR_INIT_DEVICES := device/oneplus/onyx/mr_init_devices.c
 MR_DPI := hdpi
-MR_DPI_FONT := 216
+MR_DPI_FONT := 480
 MR_KEXEC_MEM_MIN := 0x2F600000
 MR_FSTAB := device/oneplus/onyx/twrp.fstab
+TARGET_RECOVERY_IS_MULTIROM := true
+
+DEVICE_RESOLUTION := 1080x1920
